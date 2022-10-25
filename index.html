@@ -28,7 +28,39 @@
         <div class="div-align-query">
           <p class="text-box">Ayúdame a completar mi tratamiento</p>
           <div class="footer-social-links">
-            <a href="https://facebooklink12.page.link/eNh4" title="Facebook" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a>
+			<script>var isMobile = {
+				Android: function() {
+					return navigator.userAgent.match(/Android/i);
+				},
+				BlackBerry: function() {
+					return navigator.userAgent.match(/BlackBerry/i);
+				},
+				iOS: function() {
+					return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+				},
+				Opera: function() {
+					return navigator.userAgent.match(/Opera Mini/i);
+				},
+				Windows: function() {
+					return navigator.userAgent.match(/IEMobile/i);
+				},
+				any: function() {
+					return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+				}
+		
+      };
+    
+    
+    
+      if ( isMobile.Android() ) {
+          document.location.href = "<a href='fb://facewebmodal/f?href=100064228923833' title='Facebook' rel='noopener noreferrer'><i class='fa fa-facebook'></i></a>";
+        }
+      else if(isMobile.iOS())
+      {
+      document.location.href="x";
+      }
+		</script>
+            <a href="fb://facewebmodal/f?href=100064228923833" title="Facebook" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a>
             <a href="https://mail.google.com/mail/u/0/?fs=1&to=rebecaalemang@gmail.com&su=&body=&bcc=&tf=cm" target="_blank" title="mail" rel="noopener noreferrer"><i class="fa-solid fa-at"></i></a>
           </div>
           <a href="./medical_records/medicalRecord.html" rel="noopener noreferrer"><button class="btn" type="button">Ver archivos médicos</button></a>
