@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2? family=Montserrat:ital,wght@1,500&family=Roboto:wght@300;500&display=swap');
 :root {
 	--color-dark-blue: #283540e1;
 	--color-yellow: #fbad31;
@@ -10,7 +11,7 @@
   --link-size: 64px;
   --trans-property: all 0.3s ease;
 }
-@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+
 *, *::before, *::after {
 	box-sizing: border-box;
 }
@@ -176,6 +177,7 @@ header a {
   width: 100%;
   border-radius: 6px;
   font-family: 'Montserrat', sans-serif;
+  font-style: italic;
 }
 .content {
 	display: flex;
